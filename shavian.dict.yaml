@@ -1,0 +1,46 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# Shavian keyboard
+#
+# Table author:
+#  - Valery Sokolov <yetanothermy@protonmail.com>
+#  - Laŭ Sergio Pokrovskij
+
+---
+name: shavian
+version: "0.1"
+sort: original
+...
+
+#symbols
+𐑨	a
+𐑚	b
+𐑔	c
+𐑗	cx
+𐑛	d
+𐑧	e
+𐑓	f
+𐑜	g
+𐑡	gx
+𐑣	h
+𐑙	hx
+𐑦	i
+𐑰	j
+𐑠	jx
+𐑒	k
+𐑤	l
+𐑫	m
+𐑵	n
+𐑩	o
+𐑐	p
+𐑮	r
+𐑕	s
+𐑖	sx
+𐑑	t
+𐑪	u
+𐑲	w
+𐑱	q
+𐑝	v
+𐑟	z
+·	y

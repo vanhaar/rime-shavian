@@ -1,0 +1,36 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: shavian
+  name: Shavian
+  version: '0.1'
+  author:
+    - Valery Sokolov <yetanothermy@protonmail.com>
+  description: |
+    Shavian keyboard
+
+engine:
+  processors:
+    - ascii_composer
+    - speller
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  # initials: ''
+  # finals: ''
+  auto_select: true
+  # max_code_length: 2
+  # auto_select_unique_candidate: true
+
+translator:
+  dictionary: shavian
+  enable_sentence: false
+  enable_user_dict: false
